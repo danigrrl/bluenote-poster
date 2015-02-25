@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Bitter:700);
+/* line 15, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+.uppercase {
+  text-transform: uppercase; }
+
+/* line 19, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+.hide {
+  margin-left: -9999rem; }
+
+/* line 22, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+.teal {
+  color: #3A98B0; }
+
+/* line 26, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+body {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+/* line 32, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+p {
+  line-height: 110%;
+  margin: 0; }
+
+/* line 37, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+.row {
+  padding: 2rem;
+  margin: 0; }
+
+/* line 41, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+.intro {
+  background: #1B191A;
+  min-height: 70rem; }
+  /* line 45, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+  .intro h1 {
+    z-index: 999; }
+    /* line 48, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+    .intro h1 .heading-top, .intro h1 .heading-bottom {
+      font-family: 'Bitter', serif;
+      color: #BEC03D;
+      font-size: 2em; }
+    /* line 55, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+    .intro h1 .heading-top {
+      float: left; }
+    /* line 59, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+    .intro h1 .heading-bottom {
+      margin-top: 55rem;
+      float: right; }
+  /* line 65, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+  .intro ul.jazz {
+    text-transform: uppercase;
+    color: #3A98B0;
+    font-size: 50rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: -5rem;
+    left: 0;
+    z-index: 0; }
+    /* line 76, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+    .intro ul.jazz li {
+      padding: 0;
+      margin: -4rem;
+      display: inline-block; }
+  /* line 83, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+  .intro ul.names {
+    display: block;
+    width: 100%;
+    position: relative;
+    top: 10rem;
+    left: 25%; }
+    /* line 90, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+    .intro ul.names li {
+      color: #3A98B0;
+      display: inline-block;
+      padding: 0.5rem;
+      background: #1B191A;
+      font-size: 3em;
+      z-index: 999; }
+  /* line 100, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+  .intro li.name-first {
+    transform: rotate(-5deg);
+    transform-origin: left top 0; }
+  /* line 105, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+  .intro li.name-second {
+    transform: rotate(3deg);
+    transform-origin: left top 0; }
+  /* line 110, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+  .intro li.name-third {
+    transform: rotate(7deg);
+    transform-origin: left top 0; }
+  /* line 115, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+  .intro li.name-fourth {
+    transform: rotate(-3deg);
+    transform-origin: left top 0;
+    margin-left: -2rem; }
+  /* line 122, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+  .intro h3 {
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem; }
+
+/* line 132, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+.description {
+  background: #BEC03D; }
+  /* line 135, /Volumes/Macintosh SSD/Users/danielle.nordin/Box Sync/BlueNote/css/screen.scss */
+  .description h2, .description p {
+    text-align: right; }
